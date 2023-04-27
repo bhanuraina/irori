@@ -15,6 +15,6 @@ public class BookController {
     
     pulic String getBooks(Model model)
     {
-        model.addAllAttributes(attributeName: "books",bookService.findall())
+        model.addAllAttributes("books",bookService.findall());
     }
 }   
